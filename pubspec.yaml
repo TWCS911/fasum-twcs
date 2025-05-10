@@ -1,0 +1,29 @@
+name: fasum
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^5.5.2
+  firebase_core: ^3.13.0
+  firebase_database: ^11.3.5
+  appcheck: ^1.5.4+1
+  firebase_app_check: ^0.3.2+5
+  firebase_cloud_firestore: ^5.4.4
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  google_generative_ai: ^0.4.7
+  geolocator: ^14.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
